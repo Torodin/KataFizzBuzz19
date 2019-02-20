@@ -53,4 +53,11 @@ public class TestFizzBuzz {
         String resultado = fb.getFizzBuzz(37);
         assertEquals("Fizz", resultado);
     }
+   
+    @Test
+    public void testcontiene5(){
+        FizzBuzz fb = new FizzBuzz();
+        String resultado = fb.getFizzBuzz(59);
+        assertEquals("Buzz", resultado);
+    }
 }
